@@ -32,7 +32,7 @@ export default function Nav() {
       <nav className="mx-auto max-w-6xl px-6 md:px-10 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <Image
-            src="/nashvin.jpg"
+            src="/nashvin.png"
             alt="Nashvin Nidu"
             width={32}
             height={32}
