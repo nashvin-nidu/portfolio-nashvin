@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import Image from "next/image";
 import { useState } from "react";
 import { site } from "@/lib/data";
 
@@ -29,8 +30,17 @@ export default function Nav() {
       }`}
     >
       <nav className="mx-auto max-w-6xl px-6 md:px-10 h-16 flex items-center justify-between">
-        <a href="#top" className="font-serif italic text-lg tracking-tight">
-          nashvin<span className="text-accent">.</span>
+        <a href="#top" className="flex items-center gap-3">
+          <Image
+            src="/nashvin.jpg"
+            alt="Nashvin Nidu"
+            width={32}
+            height={32}
+            className="rounded-full border border-line object-cover"
+          />
+          <span className="font-serif italic text-lg tracking-tight">
+            nashvin<span className="text-accent">.</span>
+          </span>
         </a>
         <div className="hidden sm:flex items-center gap-8">
           {links.map((l) => (

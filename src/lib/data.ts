@@ -97,7 +97,7 @@ export const projects = [
     description:
       "Interactive memory game with random sequence generation and real-time input validation — a small exercise in game state done right.",
     stack: ["JavaScript", "CSS"],
-    live: null,
+    live: "https://nashvin-nidu.github.io/Simon-Game/",
     repo: "https://github.com/nashvin-nidu/Simon-Game",
   },
   {
@@ -106,8 +106,17 @@ export const projects = [
     description:
       "Responsive bakery website with an interactive UI and structured product display.",
     stack: ["HTML", "CSS"],
-    live: null,
+    live: "https://nashvin-nidu.github.io/CakeSugaryMoon/",
     repo: "https://github.com/nashvin-nidu/CakeSugaryMoon",
+  },
+  {
+    title: "Calorie Counter",
+    year: "2025",
+    description:
+      "Calorie-tracking app with dynamic meal entries, real-time calculations, and input validation.",
+    stack: ["JavaScript", "CSS"],
+    live: "https://nashvin-nidu.github.io/Calories-Counter.js/Log/",
+    repo: "https://github.com/nashvin-nidu/Calories-Counter.js",
   },
 ];
 
