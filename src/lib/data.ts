@@ -155,11 +155,13 @@ export const certifications = [
     name: "Cisco Networking Basics",
     issuer: "Cisco",
     detail: "Network protocols, IPv4/IPv6 addressing, configuration, troubleshooting and secure connectivity.",
+    link: "https://drive.google.com/file/d/1LfOsTl8jnP_U-RLmZRxQPPn9moHy7vKv/view?usp=sharing" as string | null,
   },
   {
     name: "Data Science & AI",
     issuer: "IIT Madras",
     detail: "Machine learning fundamentals — KNN, supervised & unsupervised learning, data-driven problem solving.",
+    link: "https://drive.google.com/file/d/1rvomuJgxUCWcm57vfZXslZB7AIz0mz7G/view?usp=sharing" as string | null,
   },
 ];
 

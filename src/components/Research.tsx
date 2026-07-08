@@ -43,6 +43,17 @@ export default function Research() {
                   <p className="mt-2 text-dim text-sm leading-relaxed">
                     {cert.detail}
                   </p>
+                  {cert.link && (
+                    <a
+                      href={cert.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-3 inline-flex items-center gap-2 text-sm text-dim hover:text-accent transition-colors duration-300"
+                    >
+                      View credential
+                      <span className="text-accent">↗</span>
+                    </a>
+                  )}
                 </div>
               ))}
             </div>
