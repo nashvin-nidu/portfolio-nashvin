@@ -15,7 +15,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Nashvin Nidu — Full-Stack Developer",
+  title: "Nashvin Nidu  Full-Stack Developer",
   description:
     "Full-stack developer from Kerala, India. I build fast, reliable products for the web — multi-tenant platforms, offline-first tools and automation pipelines.",
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Kerala",
   ],
   openGraph: {
-    title: "Nashvin Nidu — Full-Stack Developer",
+    title: "Nashvin Nidu Full-Stack Developer",
     description:
       "Full-stack developer building fast, reliable products for the web.",
     type: "website",
